@@ -1,0 +1,77 @@
+/* Remove default spacing */
+body {
+  margin: 0;
+}
+
+/* Make root full height */
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Full screen container */
+.login-container {
+  height: 100vh;
+  width: 100vw; /* Ensure full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f4f5;
+}
+
+/* Card */
+.login-card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #002f34;
+}
+
+/* Inputs */
+.login-card input {
+  width: 325px;
+  padding: 12px ;;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-card button {
+  display: block;
+  width: 150px;              /* Fixed width */
+  margin: 10px auto;         /* Centers horizontally */
+  padding: 12px;
+  background-color: #002f34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-card button:hover {
+  background-color: #01474f;
+}
+
+/* Register text */
+.signup-text {
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+}
+
+.signup-text span {
+  color: #002f34;
+  font-weight: bold;
+  cursor: pointer;
+}
